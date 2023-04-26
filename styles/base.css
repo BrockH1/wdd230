@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Vina+Sans&display=swap');
+
+header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Vina Sans';
+    font-size: 25px;
+}
+
+body{
+    font-family: 'Open Sans';
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    background-color:darksalmon;
+}
+#profile{
+    width: 200px;
+    justify-self: right;
+    margin: 20px;
+    margin-left: 500px;
+    box-shadow: 5px 5px 10px #6f7364;
+    border: 5px solid black;
+}
+
+
+#name{
+    justify-self: center;
+    margin-top: 100px;
+    margin-right: 500px;
+}
+
+main{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.activity-card{
+    grid-row: 2;
+    background-color:lightcoral;
+    border: 5px solid black;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-bottom: 30px;
+}
+
+.info-card{
+    grid-row: 3;
+    background-color:lightcoral;
+    border: 5px solid black;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+main h2{
+    text-align: center;
+    grid-row: 1;
+    font-size: 30px;
+    font-style:oblique
+}
+
+footer{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+h3{
+    
+}
+
+
+

@@ -1,0 +1,33 @@
+@media screen and (min-width: 500px){
+    nav{
+        flex-direction: row;
+    }
+
+    main{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 80px 1fr;
+    }
+
+    .activity-card{
+        grid-column: 1;
+        grid-row: 2;
+        justify-self: center;
+        background-color:lightcoral;
+        border: 5px solid black;
+        box-shadow: 5px 5px 10px #6f7364;
+    }
+
+    .info-card{
+        grid-column: 2;
+        grid-row: 2;
+        background-color:lightcoral;
+        border: 5px solid black;
+        box-shadow: 5px 5px 10px #6f7364;
+    }
+
+    main h2{
+        grid-row: 1;
+    }
+    
+}
