@@ -29,6 +29,10 @@ nav a {
 nav a:hover{
     background-color:darksalmon;
 }
+
+ul{
+    list-style-type: none;
+}
 #profile{
     width: 200px;
     justify-self: right;
@@ -79,10 +83,6 @@ footer{
     align-items: center;
     padding: 25px 50px;
     margin-top: 200px;
-}
-
-h3{
-    
 }
 
 

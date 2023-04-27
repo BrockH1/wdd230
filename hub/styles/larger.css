@@ -13,6 +13,8 @@
         grid-column: 1;
         grid-row: 2;
         justify-self: center;
+        width: 60%;
+        height: 100%;
         background-color:lightcoral;
         border: 5px solid black;
         box-shadow: 5px 5px 10px #6f7364;
@@ -26,6 +28,7 @@
         border: 5px solid black;
         box-shadow: 5px 5px 10px #6f7364;
         margin-top: 30px;
+        height: 100%;
     }
 
     main h2{
