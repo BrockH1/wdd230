@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Roboto&display=swap');
+
+:root{
+--primary-color: #258EA6   ;
+--secondary-color: #549F93 ;
+  --accent1-color: #C1B8C8;
+  --accent2-color: #655560;
+}
+
+header{
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+
+li{
+    text-align: left;
+}
+
+.purpose{
+    text-align: center;
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #549F93;
+    border: 5px solid black;
+}
+
+.scenarios{
+    text-align: center;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: #549F93;
+    border: 5px solid black;
+}
+
+.color_box{
+    text-align: center;
+    grid-row: 3;
+    background-color: #549F93;
+    border: 5px solid black;
+}
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  .primary {
+    background-color: var(--primary-color);
+  }
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+  .accent1 {
+    background-color: var(--accent1-color);
+  }
+  .accent2{
+    background-color: var(--accent2-color);
+  }
+
+  .typography{
+    text-align: center;
+    grid-row: 3;
+    grid-column: 2;
+    background-color: #549F93;
+    border: 5px solid black;
+  }
+
+  .wire-box{
+    text-align: center;
+  }
+  .font1{
+    font-family: 'Josefin Sans';
+  }
+
+  .font2{
+    font-family: 'Roboto'
+  }
+
+  .wireframe{
+    width: 600px;
+  }
