@@ -70,11 +70,11 @@ main{
 }
 
 a{
-    color: white;
+    color: black;
 }
 
 a:hover{
-    color: black;
+    color: white;
 }
 
 main h2{
