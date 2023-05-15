@@ -1,7 +1,21 @@
-@media screen and (min-width: 538px){
+@media screen and (min-width: 500px){
     nav{
         flex-direction: row;
     }
+
+    #menu{
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+		flex-direction: row;
+	}
+
+    .navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
 
     .home-grid{
         grid-template-columns: 1fr 1fr;
