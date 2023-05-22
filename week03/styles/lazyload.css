@@ -1,0 +1,43 @@
+header{
+    display: flex;
+    background-color: chocolate;
+    font-size: 25px;
+    justify-content: center;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+footer{
+    display: flex;
+    background-color: chocolate;
+    padding: 25px 50px;
+}
+
+picture{
+    margin-top: 40px;
+}
+
+img{
+    width: 100%;
+    background: black;
+    animation: fade 15s;
+}
+
+@keyframes fade{
+    0% {
+        opacity: 0%
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
