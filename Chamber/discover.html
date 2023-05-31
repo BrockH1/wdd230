@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="images/chamber_favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="WDD 230" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://brockh1.github.io/wdd230/Chamber/index.html"
+    />
+    <meta
+      property="og:image"
+      content="https://homeingreenecounty.com/wp-content/uploads/2020/12/The-Greene-1-1920x1282.jpg"
+    />
+    <title>Beavercreek Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="images/logo.jpg" alt="Beavercreek" />
+      <h1>Beavercreek Chamber of Commerce</h1>
+    </header>
+    <nav>
+      <button id="menu"></button>
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+      </ul>
+    </nav>
+    <main class="discover-grid">
+      <div class="discover-section" id="demographics">
+        <h1>Demographics</h1>
+        <p>
+          As of the census of 2010, there were 45,193 people, 18,195 households,
+          and 12,542 families residing in the city. The population density was
+          1,711.9 inhabitants per square mile (661.0/km2). There were 19,449
+          housing units at an average density of 736.7 per square mile
+          (284.4/km2). The racial makeup of the city was 88.5% White, 2.5%
+          African American, 0.2% Native American, 5.9% Asian, 0.5% from other
+          races, and 2.3% from two or more races. Hispanic or Latino of any race
+          were 2.6% of the population.
+        </p>
+      </div>
+      <div class="discover-section" id="recreation">
+        <h1>Recreation</h1>
+        <p>
+          The Beavercreek City Parks department operates and maintains 23 parks
+          and other properties. Beavercreek Station is a hub along Creekside
+          Trail, a bike path that stretches from Xenia to Eastwood MetroPark in
+          Dayton. The path stretches over 15 miles and has a number of hubs and
+          connecting trails. Amenities include year-round restroom facilities
+          and a bike-fix station.
+        </p>
+      </div>
+      <div class="discover-section" id="fun-facts">
+        <h1>Fun Facts</h1>
+        <p>
+          Beavercreek is the largest city in Greene County, Ohio, United States,
+          and is the second-largest suburb of Dayton. The population was 46,549
+          at the 2020 census. It is part of Metro Dayton. The Beavercreek area
+          was settled in the early 1800s. A part of Beavercreek Township was
+          incorporated and became the City of Beavercreek in February 1980. Many
+          Beavercreek residents work at nearby Wright-Patterson Air Force Base.
+          In terms of number of residents in an incorporated area, Beavercreek
+          is third in the region behind Dayton and Kettering. The city features
+          two golf courses and two shopping malls. In 2007, Beavercreek ranked
+          84th in Money's Top 100 places to live.
+        </p>
+      </div>
+      <div class="discover-section">
+        <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+        <p><span class="label">Days since last visit: </span> <span id="lastVisited"></span></p>
+      </div>
+      <picture id="apartments" class="discover-img">
+        <img
+          src="images/apartments.webp"
+          alt="apartments"
+          loading="lazy"
+          width="100%"
+          height="100%"
+        />
+      </picture>
+      <h1 class="apt-caption">Emerald Apartments</h1>
+      <picture id="forest" class="discover-img">
+        <img
+          src="images/forest.webp"
+          alt="forest"
+          loading="lazy"
+          width="100%"
+          height="100%"
+        />
+      </picture>
+      <h1 class="forest-caption">Forest Trails</h1>
+      <picture id="golf" class="discover-img">
+        <img
+          src="images/golf.webp"
+          alt="golf"
+          loading="lazy"
+          width="100%"
+          height="100%"
+        />
+      </picture>
+      <h1 class="golf-caption">Golf Club</h1>
+      <picture id="nursing-home" class="discover-img">
+        <img
+          src="images/nursing-home.webp"
+          alt="nursing home"
+          loading="lazy"
+          width="100%"
+          height="100%"
+        />
+      </picture>
+      <h1 class="nursing-caption">Harbor Chase Apartments</h1>
+      <picture id="pub" class="discover-img">
+        <img
+          src="images/pub.webp"
+          alt="pub"
+          loading="lazy"
+          width="100%"
+          height="100%"
+        />
+      </picture>
+      <h1 class="pub-caption">The Pub</h1>
+      <picture id="park" class="discover-img">
+        <img
+          src="images/park.webp"
+          alt="park"
+          loading="lazy"
+          width="100%"
+          height="100%"
+        />
+      </picture>
+      <h1 class="park-caption">Great Parks</h1>
+    </main>
+    <footer>
+      <p>&copy; <span id="year"></span> - Brock Hoskins - WDD 230</p>
+      <p>Contact us at hoskinsbe@gmail.com</p>
+      <p>This is a project for a web-development class</p>
+      <p>Last Modified:<span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getDate.js"></script>
+  </body>
+</html>

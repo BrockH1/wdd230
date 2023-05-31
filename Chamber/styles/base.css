@@ -50,6 +50,11 @@ main{
     grid-template-rows: 0.5fr 0.5fr 0.5fr;
 }
 
+.discover-grid{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .hero-box{
     display: grid;
@@ -184,5 +189,15 @@ footer {
 
 .open{
     display: block;
+}
+
+.discover-section{
+    background-color: #258EA6;
+    border: 5px solid black;
+    margin-top: 20px;
+}
+
+.discover-img{
+    margin-top: 20px;
 }
 

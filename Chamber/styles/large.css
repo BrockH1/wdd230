@@ -42,4 +42,97 @@
         margin-right: 3rem;
         margin-left: 3rem;
     }
+
+    .discover-grid{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-rows: 6;
+    }
+
+    .discover-img{
+        justify-self: center;
+        width: 50%;
+        grid-column: 2/3;
+        margin: 20px;
+        transition: transform .5s;
+        box-shadow: 5px 5px 10px #6f7364;
+    }
+
+    .discover-img:hover{
+        opacity: .6;
+        transform: scale(1.1);
+    }
+
+    #park{
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+
+    .park-caption{
+        grid-row: 1/2;
+        grid-column: 2/3;
+        color: white;
+    }
+
+    #golf{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+
+    .golf-caption{
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+
+    #nursing-home{
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+
+    .nursing-caption{
+        grid-row: 3/4;
+        grid-column: 2/3;
+    }
+
+    #apartments{
+        grid-row: 4/5;
+        grid-column: 2/3;
+    }
+
+    .apt-caption{
+        grid-row: 4/5;
+        grid-column: 2/3;
+    }
+
+    #pub{
+        grid-row: 5/6;
+        grid-column: 2/3;
+    }
+
+    .pub-caption{
+        grid-row: 5/6;
+        grid-column: 2/3;
+    }
+
+    #forest{
+        grid-row: 6/7;
+        grid-column: 2/3;
+    }
+
+    .forest-caption{
+        grid-row: 6/7;
+        grid-column: 2/3;
+        color: white;
+    }
+
+    .discover-section{
+        margin: 20px;
+    }
+
+    #demographics{
+        grid-row: 2/3;
+        height: 30rem;
+    }
+
+
 }
