@@ -1,0 +1,27 @@
+:root{
+    --form-font: Arial;
+    --font-color: cadetblue;
+    --form-margin: 1rem;
+}
+
+fieldset{
+    margin: var(--form-margin);
+}
+
+label{
+    display:block;
+}
+
+button{
+    margin-left: var(--form-margin);
+}
+
+.form-title{
+    color: var(--font-color);
+    font-family: var(--form-font);
+    margin-left: var(--form-margin);
+}
+
+label{
+    font-family: var(--form-font);
+}
