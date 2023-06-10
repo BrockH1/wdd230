@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="images/chamber_favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="WDD 230" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://brockh1.github.io/wdd230/Chamber/index.html"
+    />
+    <meta
+      property="og:image"
+      content="https://homeingreenecounty.com/wp-content/uploads/2020/12/The-Greene-1-1920x1282.jpg"
+    />
+    <title>Beavercreek Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/join-large.css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="images/logo.jpg" alt="Beavercreek" />
+      <h1>Beavercreek Chamber of Commerce</h1>
+    </header>
+    <nav>
+      <button id="menu"></button>
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+      </ul>
+    </nav>
+    <main>
+      <form method="get" action="thanks.html">
+        <h1>Join our community</h1>
+        <div>
+          <fieldset class="form">
+            <legend>User Information</legend>
+            <div>
+              <label for="fname"> First Name: </label>
+              <input type="text" id="fname" name="fname" required />
+            </div>
+            <div>
+              <label for="lname"> Last Name: </label>
+              <input type="text" id="lname" name="lname" required />
+            </div>
+            <div>
+              <label for="position"> Position: </label>
+              <input
+                type="text"
+                id="position"
+                name="position"
+                pattern="[a-zA-Z\s-]{7}"
+              />
+            </div>
+            <div>
+              <label for="email"> Email: </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@domain.com"
+                required
+              />
+            </div>
+            <div>
+              <label for="phone"> Phone Number: </label>
+              <input type="cel" id="phone" name="phone" required />
+            </div>
+            <div>
+              <label for="business"> Business/Organization Name: </label>
+              <input type="text" id="business" name="business" required />
+            </div>
+            <div>
+              <label for="description"> Business Description: </label>
+              <input type="text" id="description" name="business" />
+            </div>
+          </fieldset>
+          <fieldset class="form">
+            <legend>Membership Options</legend>
+            <div>
+              <label for="membership"> Select a membership option: </label>
+              <select name="subject">
+                <option value="">Please Select</option>
+                <option value="np">NP</option>
+                <option value="bronze">Bronze</option>
+                <option value="silver">Silver</option>
+                <option value="gold">Gold</option>
+              </select>
+            </div>
+          </fieldset>
+        </div>
+        <input id="button" type="submit" value="Send Information" class="submitBtn" />
+        <p>Form Loaded: <span class="lastModified" type="hidden"></span></p>
+      </form>
+      <div id="np-box" class="benefit-box">
+        <h1>Non-Profit Benefits</h1>
+        <ul>
+            <li>Access to special events</li>
+        </ul>
+      </div>
+      <div id="bronze-box" class="benefit-box">
+        <h1>Bronze Benefits</h1>
+        <ul>
+            <li>Access to special events</li>
+            <li>Special training</li>
+        </ul>
+      </div>
+      <div id="silver-box" class="benefit-box">
+        <h1>Silver Benefits</h1>
+        <ul>
+            <li>Access to special events</li>
+            <li>Special Training</li>
+            <li>Advertising</li>
+        </ul>
+      </div>
+      <div id="gold-box" class="benefit-box">
+        <h1>Gold Benefits</h1>
+        <ul>
+            <li>Access to special events</li>
+            <li>Special Training</li>
+            <li>Advertising</li>
+            <li>Discounts</li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; <span id="year"></span> - Brock Hoskins - WDD 230</p>
+      <p>Contact us at hoskinsbe@gmail.com</p>
+      <p>This is a project for a web-development class</p>
+      <p>Last Modified:<span class="lastModified"></span></p>
+    </footer>
+    <script src="scripts/getDate.js"></script>
+  </body>
+</html>

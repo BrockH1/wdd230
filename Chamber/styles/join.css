@@ -1,0 +1,63 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    /* grid-column: 0/1; */
+    text-align: left;
+    height: 100%;
+}
+
+div{
+    margin: 1rem;
+}
+
+label{
+    display: block;
+}
+
+h1{
+    text-align: center;
+}
+
+#button{
+    margin:1rem;
+}
+
+.benefit-box{
+    display: inline-block;
+    /* grid-column: 2/3; */
+    background-color: #258EA6;
+    border: 1px solid rgba(0,0,0,.3);
+    height: 10rem;
+}
+
+ul{
+    text-align: left;
+}
+
+#np-box{
+    /* grid-row: 1/2; */
+}
+
+#bronze-box{
+    /* grid-row: 1/2;
+    margin-top: 14rem; */
+}
+
+#silver-box{
+    /* grid-row: 1/2;
+    margin-top: 28rem; */
+}
+
+#gold-box{
+    /* grid-row: 1/2;
+    margin-top: 42rem; */
+}
+
+#thanks{
+    text-align: center;
+    justify-content: center;
+    /* Dont know what else to do, won't allign. */
+}
