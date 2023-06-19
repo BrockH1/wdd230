@@ -1,0 +1,23 @@
+{
+    "familyName" : "Super Hero Squad",
+    "moveInDate" : "04-17-1999",
+    "numberOfPeople" : 3,
+    "bishopricVisit" : false,
+    "members" : [
+      {
+        "name" : "Little Johny",
+        "gender" : "M",
+        "birthDate" : "06-25-2000"
+      },
+      {
+        "name" : "Qarl",
+        "gender" : "M",
+        "birthDate" : "06-25-1960"
+      },
+      {
+        "name" : "Betsy",
+        "gender" : "F",
+        "birthDate" : "06-25-1980"
+      }
+    ]
+    }
