@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Pizza Dive",
+        "address": "4021 Dayton Xenia Road",
+        "phone": "937-431-8669",
+        "website": "https://www.pizzadive.com/",
+        "image": "images/pizzadive.png",
+        "membership": "Gold",
+        "industry": "Food"
+    },
+    {
+        "name": "Fresh Thyme Market",
+        "address": "2850 E. Centre Dr.",
+        "phone": "937-429-4516",
+        "website": "https://ww2.freshthyme.com/sm/planning/rsid/104/?ak=true&path_org=%2f",
+        "image": "images/freshThyme.jpg",
+        "membership": "Bronze",
+        "industry": "Grocery"
+    },
+    {
+        "name": "Beavercreek Lions Club",
+        "address": "4395 Dayton Xenia Rd.",
+        "phone": "937-943-914",
+        "website": "https://e-clubhouse.org/sites/beavercreek_oh/",
+        "image": "images/lions.jfif",
+        "membership": "Non-Profit",
+        "industry": "Service"
+    },
+    {
+        "name": "Aley United Methodist Church",
+        "address": "4143 Kemp Rd.",
+        "phone": "(937) 426-3988",
+        "website": "https://www.aleyumc.org/",
+        "image": "images/aley.png",
+        "membership": "Bronze",
+        "industry": "Religion"
+    },
+    {
+        "name": "Feed the Creek",
+        "address": "3694 Kemp Rd.",
+        "phone": "937-893-205",
+        "website": "https://feedthecreek.org/",
+        "image": "images/feed-the-creek.png",
+        "membership": "Non-Profit",
+        "industry": "Food Bank"
+    },
+    {
+        "name": "The Hope Spot",
+        "address": "2960 W Enon Rd",
+        "phone": "(937) 352-6367",
+        "website": "https://thehopespot.org/",
+        "image": "images/hope-spot.png",
+        "membership": "Gold",
+        "industry": "Charity"
+    },
+    {
+        "name": "Beavercreek Rotary Club",
+        "address": "3894 N Fairfield Rd.",
+        "phone": "937-493-2956",
+        "website": "http://beavercreekrotary.com/",
+        "image": "images/rotary.gif",
+        "membership": "Gold",
+        "industry": "Servic"
+    }
+]
