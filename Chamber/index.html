@@ -27,10 +27,18 @@
     <nav>
       <button id="menu"></button>
       <ul class="navigation">
-        <li><a href="https://brockh1.github.io/wdd230/Chamber/index.html">Home</a></li>
-        <li><a href="https://brockh1.github.io/wdd230/Chamber/discover.html">Discover</a></li>
-        <li><a href="#">Directory</a></li>
-        <li><a href="https://brockh1.github.io/wdd230/Chamber/join.html">Join</a></li>
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="discover.html"
+            >Discover</a
+          >
+        </li>
+        <li><a href="directory.html">Directory</a></li>
+        <li>
+          <a href="join.html">Join</a>
+        </li>
       </ul>
     </nav>
     <main>
@@ -39,60 +47,55 @@
         <h2 class="hero-msg">
           Welcome to the Beavercreek Chamber of Commerce!
         </h2>
-        <a class="join-button" href="#">Join Now!</a>
+        <a class="join-button" href="join.html">Join Now!</a>
       </section>
 
       <section class="home-grid">
+        <section class="banner">
+          <button id="banner-btn">❌</button>
+        </section>
+        <p id="text">Chamber of Commerce Meet and Greet Wednesday @ 7:00 PM</p>
         <section class="events-box">
           <h1>Upcoming Events</h1>
-          <p>
-            Porem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            consequuntur recusandae molestias nemo, earum quam eius quis
-            cupiditate blanditiis voluptates? Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Error dolore ipsum commodi doloremque
-            quos culpa, autem, ex dolorum ullam eius adipisci perspiciatis
-            sequi, accusantium facere molestiae ad omnis nobis. Culpa?
+          <p id="event">
+            Boy Scout pancake breakfast on August 24th at 10:00 AM. Kids eat free!
           </p>
         </section>
 
         <section class="weather-box">
           <h1>Weather</h1>
-          <p>
-            Porem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            consequuntur recusandae molestias nemo, earum quam eius quis
-            cupiditate blanditiis voluptates? Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Error dolore ipsum commodi doloremque
-            quos culpa, autem, ex dolorum ullam eius adipisci perspiciatis
-            sequi, accusantium facere molestiae ad omnis nobis. Culpa?
-          </p>
+          <section id="forecast-box">
+            <div>
+              <h2>Today</h2>
+              <span id="day1"></span>
+              <figure>
+                <img id="day1-icon" src="" alt="" />
+                <figcaption id="day1-desc"></figcaption>
+              </figure>
+            </div>
+
+            <div>
+              <h2>Tomorrow</h2>
+              <span id="day2"></span>
+              <figure>
+                <img id="day2-icon" src="" alt="" />
+                <figcaption id="day2-desc"></figcaption>
+              </figure>
+            </div>
+            <div>
+              <h2>Day After</h2>
+              <span id="day3"></span>
+              <figure>
+                <img id="day3-icon" src="" alt="" />
+                <figcaption id="day3-desc"></figcaption>
+              </figure>
+            </div>
+          </section>
         </section>
 
         <section class="spotlight-box">
           <h1>Business Spotlight</h1>
-          <p>
-            Porem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            consequuntur recusandae molestias nemo, earum quam eius quis
-            cupiditate blanditiis voluptates? Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Error dolore ipsum commodi doloremque
-            quos culpa, autem, ex dolorum ullam eius adipisci perspiciatis
-            sequi, accusantium facere molestiae ad omnis nobis. Culpa?
-          </p>
           <section class="businesses">
-            <img
-              class="business-img"
-              src="images/Placeholder.png"
-              alt="placeholder"
-            />
-            <img
-              class="business-img"
-              src="images/Placeholder.png"
-              alt="placeholder"
-            />
-            <img
-              class="business-img"
-              src="images/Placeholder.png"
-              alt="placeholder"
-            />
           </section>
         </section>
       </section>
@@ -103,6 +106,8 @@
       <p>This is a project for a web-development class</p>
       <p>Last Modified:<span id="lastModified"></span></p>
     </footer>
+    <script src="scripts/forecast.js"></script>
     <script src="scripts/getDate.js"></script>
+    <script src="scripts/spotlight.js"></script>
   </body>
 </html>
