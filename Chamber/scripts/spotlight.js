@@ -25,8 +25,8 @@ const ad = document.createElement('p');
 random = Math.floor(Math.random()*spotlight.length);
 
 logo = document.createElement('img');
-logo.setAttribute('width', '300')
-logo.setAttribute('height', '350')
+logo.setAttribute('width', '300');
+logo.setAttribute('height', '300');
 
 section = document.querySelector('.businesses');
 

@@ -8,7 +8,7 @@
     }
 
     form{
-        grid-column: 0/1;
+        grid-column: 1/2;
         text-align: left;
         height: 100%;
     }

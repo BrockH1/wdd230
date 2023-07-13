@@ -122,7 +122,6 @@ main{
 }
 
 .hero-msg{
-    justify-self: top;
     grid-row: 1/2;
     grid-column: 1/2;
     font-size: 3rem;
